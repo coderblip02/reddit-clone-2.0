@@ -50,7 +50,6 @@ const createPost: NextPage = () => {
     }
   }
 
-  console.log(postData);
 
   return (
     <>
