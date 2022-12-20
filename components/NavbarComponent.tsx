@@ -2,8 +2,7 @@ import { useUser, useSupabaseClient } from "@supabase/auth-helpers-react";
 import { useRouter } from "next/router";
 import { Navbar, Button, Text } from "@nextui-org/react";
 import Link from "next/link";
-import { Image } from "@nextui-org/react";
-import { PlusIcon } from "@heroicons/react/24/outline";
+
 
 const NavbarComponent = () => {
   const supabaseClient = useSupabaseClient();

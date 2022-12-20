@@ -3,11 +3,11 @@ import type { AppProps } from "next/app";
 import { createBrowserSupabaseClient } from "@supabase/auth-helpers-nextjs";
 import { SessionContextProvider } from "@supabase/auth-helpers-react";
 import { useState } from "react";
-import Navbar from "../components/Navbar";
+
 import { NextUIProvider } from "@nextui-org/react";
 import { Box } from "../components/Box";
 import NavbarComponent from "../components/NavbarComponent";
-import { Toaster } from "react-hot-toast";
+
 
 function MyApp({ Component, pageProps }: AppProps) {
   const [supabaseClient] = useState(() => createBrowserSupabaseClient());
